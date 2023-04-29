@@ -27,7 +27,6 @@ const TodoList = () => {
             <div className="completeCheck">
               <input type="checkbox"></input>
               <span
-                // className={todo.completed? 'checked' : ''}
                 onClick={() => {
                   dispatch({ type: "complete", payload: todo.id });
                   console.log("comp");
